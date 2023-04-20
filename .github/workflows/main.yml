@@ -15,7 +15,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         # Pin to node6
-        node-version: 6.x
+        node-version: 6.13.1
     - name: npm install and build
       working-directory: ./client
       # Install and build to gh-pages dir
